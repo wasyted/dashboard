@@ -37,7 +37,7 @@ export default function Chat() {
 
           <div className="bg-slate-600/15 p-2 rounded-md flex justify-center items-center">
             <label className="w-full px-2" htmlFor="prompt">
-              <input placeholder="How can i help you?" type="text" name="prompt" id="prompt" />
+              <input className="w-full" placeholder="How can i help you?" type="text" name="prompt" id="prompt" />
             </label>
             <div className="aspect-square w-8 h-8 rounded-sm bg-white/10 flex items-center justify-center">
               <button type="submit">↑</button>
